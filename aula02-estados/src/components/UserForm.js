@@ -4,6 +4,12 @@ const UserForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
 
+  const handleSubmit = (evento) => {
+    // Aqui é onde sera mandando os dados para a Api, mas como atualmente estamos só no front vamos só printar no console
+    event.preventDefault;
+    console.log(name, email);
+  };
+
   return (
     <>
       <h1>Formulário de Cadastro:</h1>
@@ -26,9 +32,8 @@ const UserForm = () => {
         <br />
         <button type="submit">Cadastrar</button>
       </form>
-      <br />
-      <br />
       {name}
+      <br />
       {email}
     </>
   );
