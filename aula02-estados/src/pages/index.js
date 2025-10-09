@@ -39,31 +39,30 @@ export default function Home() {
         <br />
         <br />
         <Children>
-            <p>Está é o conteúdo da children</p>
+          <p>Está é o conteúdo da children</p>
         </Children>
         <br />
         <br />
-        <TaskList 
-        tasks={[
-          {
-            id:"1",
-            text:"Pagar Contas"
-          },
-          {
-            id:"2",
-            text:"Fazer compras no mercado"
-          },
-                    {
-            id:"3",
-            text:"Lavar o carro"
-          },
-                    {
-            id:"4",
-            text:"Estudar React"
-          },
-        ]}
+        <TaskList
+          tasks={[
+            {
+              id: "1",
+              text: "Pagar Contas",
+            },
+            {
+              id: "2",
+              text: "Fazer compras no mercado",
+            },
+            {
+              id: "3",
+              text: "Lavar o carro",
+            },
+            {
+              id: "4",
+              text: "Estudar React",
+            },
+          ]}
         />
-        
       </main>
     </>
   );

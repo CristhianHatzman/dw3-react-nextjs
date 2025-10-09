@@ -2,7 +2,7 @@ npx create-next-app .
 No
 Eslint
 No
-Tes
+Yes
 No
 Yes
 No
